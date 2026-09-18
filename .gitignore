@@ -1,0 +1,63 @@
+# Security / environment
+.env
+.env.*
+**/.env
+**/.env.*
+!.env.example
+!**/.env.example
+
+*.pem
+*.key
+*.p12
+*.pfx
+secrets.json
+credentials.json
+*service-account*.json
+*credentials*.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+.venv/
+venv/
+env/
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Node / Vite
+node_modules/
+dist/
+build/
+.cache/
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime
+*.log
+*.pid
+logs/
+tmp/
+temp/
+
+# macOS / Windows
+.DS_Store
+.DS_Store?
+._*
+.Trashes
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
